@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+
+      <meta charset="UTF-8">
+      <title>ONLINE SPERM BANK</title>
+      <link rel="stylesheet" type="text/css" href="login.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body id="body">
+      <h1 id="head">VICKY  DONOR</h1>
+      <div class="videoc">
+        <video autoplay muted loop>
+            <source src="background-computer.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="videom">
+        <video autoplay muted loop>
+            <source src="background-mobile.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="loginbox2">
+      <form action="login_check.php" method="post">
+        <br>
+        <label for="username"><span id="labeluser">U</span>SERNAME</label>
+        <input type="text" name="username" id="username" required>
+        <br><br>
+        <label for="password" id="labelpass"><span id="labeluser">P</span>ASSWORD</label>
+        <input type="password" name="password" id="password" required>
+
+        <br><br>
+
+        <label id="client" class="hoverlabel"><span id="labeluser">C</span>LIENT
+        <input type="radio" name="option" value="client" class="doption" required>
+        <span class="coption"></span>
+        </label>
+
+        <label id="donar" class="hoverlabel"><span id="labeluser">D</span>ONOR
+        <input type="radio" name="option" value="donor" class="doption" required>
+        <span class="coption"></span>
+        </label>
+        <br><br>
+        <button type="SUBMIT" id="button">SIGN IN</button>
+        </div>
+      </form>
+
+    </body>
+
+  </html>

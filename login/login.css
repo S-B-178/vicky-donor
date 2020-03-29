@@ -1,0 +1,290 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.loginbox2
+{
+  position: relative;
+  width: 790px;
+  height: 390px;
+  margin:auto;
+  margin-top: 89px;
+  border: 4px solid rgba(255,255,255,0.8);
+  border-radius: 10px;
+  background: rgba(255,255, 255, 0.1);
+  z-index: 1;
+}
+
+.loginbox2 label{
+  color:#ffffff ;   /*#a5b7f7 */
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Questrial', sans-serif;
+  padding-left: 20px;
+  z-index: 1;
+}
+
+.loginbox2 button{
+  z-index: 2;
+  margin-left: 43%;
+  z-index: 1;
+}
+
+#head
+{
+  text-align: center;
+  margin-top: 70px;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  font-weight: 600;
+  width: 790px;
+  margin:auto;
+  margin-top: 30px;
+  border: 3px double white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 65px;
+  border-radius: 10px;
+  color:#ffffff ; //#c3711c
+  z-index: 1;
+}
+
+#username
+{
+  margin-left: 47px;
+  margin-top: 10px;
+  font-size: 19px;
+  width: 414px;
+  height: 39px;
+  padding-top: 6px;
+  padding-left: 15px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  z-index: 1;
+}
+
+#username:hover
+{
+  margin-left: 47px;
+  margin-top: 10px;
+  font-size: 19px;
+  width: 414px;
+  height: 39px;
+  padding-top: 6px;
+  padding-left: 15px;
+  border: 2px solid #ff0000;
+  border-radius: 25px;
+  color: white;
+  background-color:rgba(255,255,255,0.2);
+  z-index: 1;
+}
+
+#password
+{
+  margin-left: 45px;
+  font-size: 19px;
+  width: 414px;
+  height: 39px;
+  padding-top: 10px;
+  padding-left: 15px;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  color: white;
+  background-color: transparent;
+  z-index: 1;
+}
+
+#password:hover
+{
+  margin-left: 45px;
+  font-size: 19px;
+  width: 414px;
+  height: 39px;
+  padding-top: 10px;
+  padding-left: 15px;
+  border: 2px solid #ff0000;
+  border-radius: 25px;
+  color: white;
+  background-color:rgba(255,255,255,0.2);
+  z-index: 1;
+}
+
+#labeluser
+{
+  font-size: 80px;
+  color: red;
+}
+
+#labeluser::first-letter
+{
+  font-size: 120px;
+}
+
+#body
+{
+  overflow:hidden;
+  background-size: cover;
+}
+
+.videoc
+{
+  position: absolute;
+  width: auto;
+  height:auto;
+  z-index: -1;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+}
+
+.videom
+{
+  position: absolute;
+  width: auto;
+  height:auto;
+  z-index: -1;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+}
+ /* @media(min-aspect-ratio:16/9)
+{
+  .videoc
+  {
+    width:100%;
+    height:auto;
+  }
+}
+
+@media(max-aspect-ratio:16/9)
+{
+  .videoc
+  {
+    width:auto;
+    height:100%;
+  }
+} */
+
+#client
+{
+  font-size: 25px;
+  padding-left: 164px;
+}
+
+#donar
+{
+  font-size: 25px;
+  padding-left: 90px;
+}
+
+.doption
+{
+  opacity: 0;
+  transform: scale(0);
+}
+
+.coption
+{
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  margin-top: 42px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid white;
+
+}
+
+.hoverlabel:hover input ~ .coption
+{
+  border: 3px solid red;
+}
+
+.hoverlabel input:checked ~ .coption
+{
+  background-color: red;
+  border: 3px solid red;
+  transform: scale(0.7);
+}
+
+#button
+{
+  background-color: transparent;
+  font-size: 14px;
+  border-radius: 25px;
+  color: white;
+  border: 3px solid #ffffff;
+  padding:10px 24px;
+  font-family: 'Questrial', sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+#button:hover
+{
+  background-color: transparent;
+  color: white;
+  border: 3px solid #ff0000;
+  padding:10px 24px;
+}
+
+#p
+{
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  margin-left: 240px;
+  margin-right: 240px;
+  border: 2px double red;
+  border-radius: 7px;
+}
+
+@media only screen and (max-width: 1080px)
+{
+  .loginbox2
+  {
+    padding-left:10%;
+    padding-top:10%;
+    padding-bottom:10%;
+    margin-top: 200px;
+    margin-left: 1%;
+  }
+  #head
+  {
+    margin-top: 30%;
+    padding-left:10%;
+    font-size: 130px;
+    margin-left: 2%;
+  }
+  #body
+  {
+    overflow-y: hidden;
+  }
+  .videoc
+  {
+    display: block;
+    z-index: -5;
+    overflow-y: hidden;
+    opacity: 0;
+  }
+  .videom
+  {
+    transform: scale(1);
+    overflow-y: hidden;
+  }
+}
+@media only screen and (min-width: 1080px)
+{
+  .videom
+  {
+    opacity: 0;
+    z-index: -5;
+  }
+}

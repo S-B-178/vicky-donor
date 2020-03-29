@@ -1,0 +1,12 @@
+.navbar-brand:focus, .navbar-brand:hover {
+  text-decoration: none;
+  font-size: 30px;
+  color: #9a3bb8;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(0,0,0,.9);
+  font-size: 30px;
+  color: #b02a50;
+}
+

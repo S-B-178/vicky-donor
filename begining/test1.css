@@ -1,0 +1,88 @@
+.section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   display: contents;
+    overflow: hidden;
+   
+}
+
+.video-container {  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.jump{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.jumbotron {
+    background-color:rgba(0,0,0,0.4);
+    padding: 30px;
+    border: 6px solid white;
+    border-radius: 20px;
+    
+}
+
+form{
+    color:white;
+    font-size: 20px;
+    padding-left:0%;
+    font-size: 25px;
+    font-family: Questrial;
+    
+}
+
+
+.from-group {
+    //padding-left: 5%;
+    padding-bottom: 40px;
+    border-radius: 22px;
+    
+    
+}
+
+.but{
+    border-radius: px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+#ph{
+    
+    width: 70px;
+}
+
+#mob {
+    width
+}
+
+.head {
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-weight:900;
+    text-align: center;
+    color: white;
+}
+
+.head h1::after {
+    content: close-quote;
+    position: absolute;
+    left: 40%;
+    display: inline-block;
+    height: 1px;
+    width: 20%;
+    border-bottom: 1px solid;
+    margin-top: 82px;
+}
+body{
+    padding-top: 40px;
+}
